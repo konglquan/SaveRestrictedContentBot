@@ -12,12 +12,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None, cast=int)
+API_ID = 7185863
+API_HASH = "22a6e80a1874686e63fb2899aea2ae3c"
+BOT_TOKEN = "7085373817:AAEugmx8hAwy2Jc9ZyIjIhkaxlg7E-O-WDc"
+SESSION = "AQBtpccAvfouRP4MHk5vPRds4Wcdgc2AowCqVIUt8wEF75DgmXULk2EUPwtBqkWiz6mYModBguekVpaWTibQkTEJ7bK2x3WY3JPmjPVEook1yzOyRGT3wB88k1T_FypVXDMJvMcDE6OQlVq3w36yzbLMB3zhGN5jueVnEaK9JAjtkAIJ2DKIaHUSupbfGTgex9xtYY7rgmGQpWLj3DMXn8aQSuZG7K-nvfpEAqqpT4-B1J_CIRwnYIu6yT_-6VdgVABwdKjdt2DOgeN0B1zfLW4Sp7VE12nngK63Q8iwgJI5kHOHCoXMn3cYXt5TWEJwieIgSRAPVRI62Yj5mfBvMrhhYlltxAAAAABR_B_rAA"
+FORCESUB = "xiaoshulinerfenxiang"
+AUTH = 1375477739
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
